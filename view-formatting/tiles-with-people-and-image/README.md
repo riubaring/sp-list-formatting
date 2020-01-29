@@ -3,6 +3,8 @@
 ## Summary
 List View format that shows tiles with People/Group column type and an Image
 
+![Tiles with People or Group and Image](./tiles-with-people-and-image.png)
+
 ## View Requirements
 
 ### Standard Column
