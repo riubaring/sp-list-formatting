@@ -1,0 +1,157 @@
+{  "schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideListHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "float": "left",
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "flex-direction": "column",
+      "align-items": "center",
+      "justify-content": "space-around",
+      "min-width": "600px",
+      "min-height": "400px",
+      "border-radius": "8px",
+      "margin-right": "10px",
+      "margin-bottom": "10px",
+      "box-shadow": "2px 2px 4px grey"
+    },
+    "attributes": {
+      "class": "ms-bgColor-white ms-bgColor-neutralLight--hover"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "text-align": "center"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "white-space": "wrap",
+              "margin-bottom": "8px",
+              "background-color": "#006ba6",
+              "color": "#fff",
+              "padding": "12px"
+            },
+            "txtContent": "[$LearnerName0]"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "text-align": "center",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "color": "#006ba6",
+              "margin-bottom": "12px",
+              "white-space": "wrap"
+            },
+            "txtContent": "MY TRAINING GOAL"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "text-align": "left",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "white-space": "wrap"
+            },
+            "txtContent": "='Minimum Required Belt: '+'[$MinRequirementBeltPILOT]'"
+          },
+          {
+            "elmType": "a",
+            "txtContent": "[$KPLearnCurriculum]",
+            "attributes": {
+              "href": "[$KPLearnCurriculumLink]",
+              "style": {
+                "font-weight": "600",
+                "font-size": "1.1rem",
+                "text-align": "left",
+                "max-width": "1000px",
+                "white-space": "wrap"
+              },
+              "txtContent": "='[$KPLearnCurriculum]'"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "text-align": "left",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "white-space": "wrap",
+              "margin-bottom": "8px",
+              "padding": "0px"
+            },
+            "txtContent": "='Due Date: '+ toLocaleString([$TileDueDate])"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "text-align": "left",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "white-space": "wrap",
+              "margin-bottom": "8px",
+              "padding": "0px"
+            },
+            "txtContent": "='Status: '+'[$TrainingStatus]'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "text-align": "center",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "color": "#006ba6",
+              "margin-bottom": "12px",
+              "white-space": "wrap"
+            },
+            "txtContent": "MY TRAINING ACHIEVEMENTS"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "text-align": "left",
+              "overflow": "hidden",
+              "max-width": "1000px",
+              "white-space": "wrap",
+              "margin-bottom": "8px"
+            },
+            "txtContent": "='Total Points: '+'[$TotalPoints]'+' Points'"
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "font-weight": "600",
+              "font-size": "1.1rem",
+              "overflow": "hidden",
+              "text-align": "left",
+              "max-width": "1000px",
+              "white-space": "wrap"
+            },
+            "txtContent": "='Point Details: '+'[$PointDetails]'"
+          }
+        ]
+      }
+    ]
+  }
+}
